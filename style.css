@@ -17,6 +17,10 @@ table, .box2 {
 	box-shadow: 0 0px 4px rgba(0,0,0,0.4);
 }
 
+.box {
+	background-color: #fbfaf8 !important;
+}
+
 tr {
 	border: none;
 	background-color: #fbfaf8 !important;
@@ -184,4 +188,51 @@ select {
 }
 select:hover {
  color:#ddd
+}
+#artist .edit_form,
+#artist_information,
+#changelog .changelog_entry,
+#collage .create_form,
+#edit_collage,
+#filter_form,
+#friends .friends_table,
+#inbox #searchbox,
+#questions .box2,
+#reportform,
+#reports .box,
+#similar_artist_map,
+#staff .box,
+#torrents .edit_form,
+#torrents .torrent_description,
+#upload #content>div,
+#user .edit_form:not(#userform),
+.inbox_message,
+.sidebar .box,
+.users_reports_table,
+.vertical_space.box,
+table.forum_post {
+ border: 1px solid #222;
+}
+#rules h4,
+#rules h5,
+#torrents table:not(.forum_post) .colhead_dark,
+.sidebar .colhead_dark,
+.sidebar .head {
+ color:#fff;
+}
+#rules h4 a,
+#rules h5 a,
+#torrents table:not(.forum_post) .colhead_dark a,
+.colhead a,
+.sidebar .colhead_dark a,
+.sidebar .head a {
+ color:#fff0f0
+}
+#rules h4 a:hover,
+#rules h5 a:hover,
+#torrents table:not(.forum_post) .colhead_dark a:hover,
+.colhead a:hover,
+.sidebar .colhead_dark a:hover,
+.sidebar .head a:hover {
+ color:#ffffff
 }
